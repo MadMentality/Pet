@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import styles from "./Nav.module.scss";
 import { useState } from "react";
 import menu from "../../../public/static/images/Nav/menu-2.png";
-import logo from "../../../public/static/images/Nav/logo-trans.png";
+import logo from "../../../public/static/images/Nav/logo.jpg";
 import search from "../../../public/static/images/Nav/search.png";
 
 function Nav() {
