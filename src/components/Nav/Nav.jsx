@@ -9,12 +9,12 @@ function Nav() {
       <div className={styles.root}>
         <div>
           <NavLink>
-            <img src="src/images/Nav/menu-2.png" alt="menu"></img>
+            <img src="public/images/Nav/menu-2.png" alt="menu"></img>
           </NavLink>
         </div>
         <NavLink to={"/"}>
           <img
-            src="src/images/Nav/logo.jpg"
+            src="public/images/Nav/logo.jpg"
             alt="logo"
             className={styles.logo}
           ></img>
@@ -29,7 +29,7 @@ function Nav() {
               }
             }}
           >
-            <img src="src/images/Nav/search.png" alt="search"></img>
+            <img src="public/images/Nav/search.png" alt="search"></img>
           </NavLink>
           <input placeholder="search" style={{ display: show }}></input>
         </div>

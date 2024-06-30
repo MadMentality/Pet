@@ -1,12 +1,12 @@
 import styles from "./Category.module.css";
 
 const info = [
-  { text: "GAMES", url: "src/images/Category/game.jpg" },
-  { text: "GEAR IN 2025", url: "src/images/Category/gear.jpg" },
-  { text: "BEDS IN 2025", url: "src/images/Category/bed.jpg" },
-  { text: "BOWLS", url: "src/images/Category/bowl.jpg" },
-  { text: "TREATS", url: "src/images/Category/treat.jpg" },
-  { text: "CAT", url: "src/images/Category/cat.jpg" },
+  { text: "GAMES", url: "public/images/Category/game.jpg" },
+  { text: "GEAR IN 2025", url: "public/images/Category/gear.jpg" },
+  { text: "BEDS IN 2025", url: "public/images/Category/bed.jpg" },
+  { text: "BOWLS", url: "public/images/Category/bowl.jpg" },
+  { text: "TREATS", url: "public/images/Category/treat.jpg" },
+  { text: "CAT", url: "public/images/Category/cat.jpg" },
 ];
 
 function ThreeImageSet() {

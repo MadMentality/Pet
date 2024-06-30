@@ -33,7 +33,7 @@ function AboutUs() {
   return (
     <div className={styles.root}>
       <div>
-        <img src="src/images/Nav/logo-trans.png" alt="logo" />
+        <img src="public/images/Nav/logo-trans.png" alt="logo" />
         <p className={styles.title}>About Us</p>
         <div className={styles.container}>
           <button

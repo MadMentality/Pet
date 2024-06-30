@@ -3,27 +3,27 @@ import { useEffect, useState } from "react";
 
 const album = [
   {
-    url: "src/images/Slider/slider0.jpg",
+    url: "public/images/Slider/slider0.jpg",
     title: "dog0",
   },
   {
-    url: "src/images/Slider/slider1.jpg",
+    url: "public/images/Slider/slider1.jpg",
     title: "dog1",
   },
   {
-    url: "src/images/Slider/slider2.jpg",
+    url: "public/images/Slider/slider2.jpg",
     title: "dog2",
   },
   {
-    url: "src/images/Slider/slider3.jpg",
+    url: "public/images/Slider/slider3.jpg",
     title: "dog3",
   },
   {
-    url: "src/images/Slider/slider4.jpg",
+    url: "public/images/Slider/slider4.jpg",
     title: "dog4",
   },
   {
-    url: "src/images/Slider/slider5.jpg",
+    url: "public/images/Slider/slider5.jpg",
     title: "dog5",
   },
 ];
