@@ -1,0 +1,56 @@
+@import "../scssStyles/partials";
+
+.root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 10% 0;
+  width: 93%;
+  height: 400px;
+  border-radius: 25px;
+  background-position: 0 30%;
+  background-size: cover;
+  @include flexCenter;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  p {
+    color: #f9d689;
+    margin: 0 20px 20px 0;
+    font-size: 30px;
+    width: 400px;
+  }
+  :first-child {
+    font-size: 50px;
+  }
+  button {
+    @include btn;
+    margin: 40px 100px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .container {
+    width: 90%;
+    margin-bottom: 15%;
+    height: auto;
+
+    p {
+      margin: 20px 10px 0 0;
+      width: 150px;
+      color: #f5e7b2;
+      font-size: 20px;
+    }
+    :first-child {
+      font-size: 30px;
+    }
+    button {
+      margin: 10px 30px;
+      width: 30%;
+    }
+  }
+}

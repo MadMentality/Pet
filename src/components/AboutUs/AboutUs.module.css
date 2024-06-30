@@ -1,0 +1,54 @@
+.root {
+  width: 100%;
+  background-color: #eeeeee;
+  margin-top: 50px;
+  height: 500px;
+  padding-bottom: 5%;
+  height: auto;
+}
+.root img {
+  width: 150px;
+  position: relative;
+  top: -60px;
+}
+.root p {
+  margin: 0 15%;
+  font-size: 30px;
+  color: #636569;
+}
+.root .title {
+  color: #111;
+  padding-bottom: 9%;
+  font-weight: bold;
+}
+
+.leftArrow, .rightArrow {
+  font-size: 60px;
+  color: #636569;
+  cursor: pointer;
+  padding: 0 0 0 5%;
+  border: none;
+}
+
+.rightArrow {
+  padding: 0 5% 0 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 425px) {
+  .root p {
+    font-size: 15px;
+  }
+  .root .title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .root .leftArrow, .root .rightArrow {
+    font-size: 40px;
+  }
+}/*# sourceMappingURL=AboutUs.module.css.map */

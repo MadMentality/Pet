@@ -1,0 +1,37 @@
+.root {
+  text-align: center;
+  padding: 5% 0;
+}
+.root img {
+  margin: 0 auto;
+  width: 10%;
+  display: block;
+  fill: #fff;
+}
+.root a {
+  color: #111;
+}
+.root svg {
+  width: 60px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5% 30%;
+}
+
+.ig :hover {
+  fill: #f53684;
+}
+
+.tiktok:hover {
+  fill: #3dbbb9;
+}
+
+@media only screen and (max-width: 425px) {
+  .root svg {
+    width: 40px;
+  }
+}/*# sourceMappingURL=Footer.module.css.map */

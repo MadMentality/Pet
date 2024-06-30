@@ -1,0 +1,61 @@
+nav {
+  width: 100%;
+  background-color: white;
+  height: auto;
+}
+nav img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0;
+  flex: 1 1 1;
+}
+nav img:hover {
+  cursor: pointer;
+}
+
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+}
+
+.logo {
+  width: 200px;
+  height: 100%;
+}
+
+input {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  position: fixed;
+}
+
+input::-moz-placeholder {
+  font-size: 20px;
+}
+
+input::placeholder {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+  .root {
+    margin: 15%;
+  }
+  .logo {
+    width: 120px;
+  }
+  input {
+    width: 50px;
+  }
+  input::-moz-placeholder {
+    font-size: 12px;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=Nav.module.css.map */
