@@ -14,17 +14,16 @@ nav img {
 nav img:hover {
   cursor: pointer;
 }
+nav .logo {
+  width: 200px;
+  height: 100%;
+}
 
 .root {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 100px;
-}
-
-.logo {
-  width: 200px;
-  height: 100%;
 }
 
 input {
