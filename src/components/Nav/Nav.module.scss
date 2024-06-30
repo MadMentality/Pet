@@ -14,8 +14,8 @@ nav {
     cursor: pointer;
   }
   .logo {
-    width: 200px;
-    height: 100%;
+    width: 200px !important;
+    height: 100% !important;
   }
 }
 
@@ -42,7 +42,7 @@ input::placeholder {
     margin: 15%;
   }
   .logo {
-    width: 120px;
+    width: 120px !important;
   }
   input {
     width: 50px;
