@@ -15,7 +15,7 @@ function Nav() {
             <img src={menu} alt="menu"></img>
           </NavLink>
         </div>
-        <NavLink to={"/"}>
+        <NavLink>
           <img src={logo} alt="logo" className={styles.logo}></img>
         </NavLink>
         <div>
