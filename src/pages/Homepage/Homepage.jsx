@@ -15,13 +15,13 @@ function Homepage() {
         <LongImage
           lineOne={"Go byond the bowl"}
           lineTwo={"shop fun feeders"}
-          imgURL={"public/images/LongImage/long1.jpg"}
+          imgURL={"/images/LongImage/long1.jpg"}
         ></LongImage>
         <Category />
         <LongImage
           lineOne={"Treat your dog healthier"}
           lineTwo={""}
-          imgURL={"public/images/LongImage/long2.jpg"}
+          imgURL={"images/LongImage/long2.jpg"}
         ></LongImage>
       </div>
       <AboutUs />
