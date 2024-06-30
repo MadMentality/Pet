@@ -5,6 +5,7 @@ import Category from "../../components/Category/Category";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import styles from "./Homepage.module.css";
 import Footer from "../../components/Footer/Footer";
+import long1 from "../../../public/static/images/LongImage/long1.jpg";
 
 function Homepage() {
   return (
@@ -15,7 +16,7 @@ function Homepage() {
         <LongImage
           lineOne={"Go byond the bowl"}
           lineTwo={"shop fun feeders"}
-          imgURL={"/static/images/LongImage/long1.jpg"}
+          imgURL={long1}
         ></LongImage>
         <Category />
         <LongImage
