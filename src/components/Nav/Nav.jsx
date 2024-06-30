@@ -6,7 +6,7 @@ import logo from "../../../public/static/images/Nav/logo.jpg";
 import search from "../../../public/static/images/Nav/search.png";
 
 function Nav() {
-  const [show, setShow] = useState("block");
+  const [show, setShow] = useState("none");
   return (
     <nav>
       <div className={styles.root}>
@@ -22,7 +22,7 @@ function Nav() {
           <NavLink
             onClick={() => {
               if (show === "none") {
-                setShow(() => "block");
+                setShow(() => "inline-block");
               } else {
                 setShow(() => "none");
               }
