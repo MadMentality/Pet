@@ -6,7 +6,7 @@ import logo from "../../../public/static/images/Nav/logo.jpg";
 import search from "../../../public/static/images/Nav/search.png";
 
 function Nav() {
-  const [show, setShow] = useState("none");
+  const [show, setShow] = useState("block");
   return (
     <nav>
       <div className={styles.root}>
