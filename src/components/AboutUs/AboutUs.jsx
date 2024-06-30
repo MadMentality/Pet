@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./AboutUs.module.css";
+import logo from "../../../public/static/images/Nav/logo-trans.png";
 
 const textSlid = [
   {
@@ -33,7 +34,7 @@ function AboutUs() {
   return (
     <div className={styles.root}>
       <div>
-        <img src="public/images/Nav/logo-trans.png" alt="logo" />
+        <img src={logo} alt="logo" />
         <p className={styles.title}>About Us</p>
         <div className={styles.container}>
           <button

@@ -1,12 +1,18 @@
 import styles from "./Category.module.css";
+import gameImg from "../../../public/static/images/Category/game.jpg";
+import gearImg from "../../../public/static/images/Category/gear.jpg";
+import bedImg from "../../../public/static/images/Category/bed.jpg";
+import bowlImg from "../../../public/static/images/Category/bowl.jpg";
+import treatImg from "../../../public/static/images/Category/treat.jpg";
+import catImg from "../../../public/static/images/Category/cat.jpg";
 
 const info = [
-  { text: "GAMES", url: "public/images/Category/game.jpg" },
-  { text: "GEAR IN 2025", url: "public/images/Category/gear.jpg" },
-  { text: "BEDS IN 2025", url: "public/images/Category/bed.jpg" },
-  { text: "BOWLS", url: "public/images/Category/bowl.jpg" },
-  { text: "TREATS", url: "public/images/Category/treat.jpg" },
-  { text: "CAT", url: "public/images/Category/cat.jpg" },
+  { text: "GAMES", url: `${gameImg}` },
+  { text: "GEAR IN 2025", url: `${gearImg}` },
+  { text: "BEDS IN 2025", url: `${bedImg}` },
+  { text: "BOWLS", url: `${bowlImg}` },
+  { text: "TREATS", url: `${treatImg}` },
+  { text: "CAT", url: `${catImg}` },
 ];
 
 function ThreeImageSet() {

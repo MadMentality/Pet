@@ -1,29 +1,35 @@
 import styles from "./Slider.module.css";
 import { useEffect, useState } from "react";
+import dog0 from "../../../public/static/images/Slider/slider0.jpg";
+import dog1 from "../../../public/static/images/Slider/slider1.jpg";
+import dog2 from "../../../public/static/images/Slider/slider2.jpg";
+import dog3 from "../../../public/static/images/Slider/slider3.jpg";
+import dog4 from "../../../public/static/images/Slider/slider4.jpg";
+import dog5 from "../../../public/static/images/Slider/slider5.jpg";
 
 const album = [
   {
-    url: "public/images/Slider/slider0.jpg",
+    url: `${dog0}`,
     title: "dog0",
   },
   {
-    url: "public/images/Slider/slider1.jpg",
+    url: `${dog1}`,
     title: "dog1",
   },
   {
-    url: "public/images/Slider/slider2.jpg",
+    url: `${dog2}`,
     title: "dog2",
   },
   {
-    url: "public/images/Slider/slider3.jpg",
+    url: `${dog3}`,
     title: "dog3",
   },
   {
-    url: "public/images/Slider/slider4.jpg",
+    url: `${dog4}`,
     title: "dog4",
   },
   {
-    url: "public/images/Slider/slider5.jpg",
+    url: `${dog5}`,
     title: "dog5",
   },
 ];

@@ -6,6 +6,7 @@ import AboutUs from "../../components/AboutUs/AboutUs";
 import styles from "./Homepage.module.css";
 import Footer from "../../components/Footer/Footer";
 import long1 from "../../../public/static/images/LongImage/long1.jpg";
+import long2 from "../../../public/static/images/LongImage/long2.jpg";
 
 function Homepage() {
   return (
@@ -22,7 +23,7 @@ function Homepage() {
         <LongImage
           lineOne={"Treat your dog healthier"}
           lineTwo={""}
-          imgURL={"/static/images/LongImage/long2.jpg"}
+          imgURL={long2}
         ></LongImage>
       </div>
       <AboutUs />

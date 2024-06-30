@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import logo from "../../../public/static/images/Nav/logo-trans.png";
 
 function Footer() {
   return (
@@ -38,7 +39,7 @@ function Footer() {
           </svg>
         </a>
       </div>
-      <img src="public/images/Nav/logo-trans.png" alt="logo"></img>
+      <img src={logo} alt="logo"></img>
       <a href="mailto:customercare@tacitpet.com">Contact Us</a>
       <p>Copyright © 2024 Tacitpet Inc.</p>
     </div>
