@@ -30,11 +30,29 @@ input {
   width: 150px;
   height: 40px;
   border-radius: 10px;
-  position: fixed;
+  position: relative;
+  display: block;
 }
 
 input::placeholder {
   font-size: 20px;
+}
+
+.searchParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.menuParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: antiquewhite;
+
+  padding: 10%;
 }
 
 @media only screen and (max-width: 375px) {

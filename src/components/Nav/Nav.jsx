@@ -18,7 +18,7 @@ function Nav() {
         <NavLink>
           <img src={logo} alt="logo" className={styles.logo}></img>
         </NavLink>
-        <div>
+        <div className={styles.searchParent}>
           <NavLink
             onClick={() => {
               if (show === "none") {
